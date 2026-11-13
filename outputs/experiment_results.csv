@@ -1,0 +1,6 @@
+change,experiment,json_valid,exact_match,mean_field_acc,peak_gpu_gb,train_mins
+Raw train data (QLoRA r=16),exp1_raw_qlora_r16,1.0,0.95,0.98875,5.42,45.31
+Cleaned train data (QLoRA r=16),exp2_clean_qlora_r16,1.0,0.91,0.9824999999999999,5.43,40.18
+"16-bit LoRA (fp16, r=16)",exp3_clean_fp16_r16,1.0,0.89,0.9775,13.72,16.5
+"Higher LoRA rank (r=32, alpha=64)",exp4_clean_qlora_r32,1.0,0.895,0.98125,3.56,27.57
+2x Hard-slice oversampling (QLoRA r=16),exp5_hard_slice_aug,1.0,0.9,0.980625,3.33,38.7

@@ -1,0 +1,9 @@
+{
+  "change": "2x Hard-slice oversampling (QLoRA r=16)",
+  "experiment": "exp5_hard_slice_aug",
+  "json_valid": 1.0,
+  "exact_match": 0.9,
+  "mean_field_acc": 0.980625,
+  "peak_gpu_gb": 3.33,
+  "train_mins": 38.7
+}

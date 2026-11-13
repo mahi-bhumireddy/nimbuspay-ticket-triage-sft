@@ -1,0 +1,9 @@
+{
+  "change": "Higher LoRA rank (r=32, alpha=64)",
+  "experiment": "exp4_clean_qlora_r32",
+  "json_valid": 1.0,
+  "exact_match": 0.895,
+  "mean_field_acc": 0.98125,
+  "peak_gpu_gb": 3.56,
+  "train_mins": 27.57
+}
